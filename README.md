@@ -8,3 +8,9 @@ This repository host my learning of SVG.
 bundle install
 bundle exec middleman
 ```
+
+## Deployment
+
+```
+./deploy.sh
+```
