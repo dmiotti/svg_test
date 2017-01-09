@@ -43,8 +43,15 @@ title: Fuck my SVG
 
     <polygon
       points="50,3 20,97 97,39 3,39 80,97"
-      style="fill:lime;stroke:purple;stroke-width:2.5;fill-rule:nonzero;"
-      transform="rotate(180 50,50)" />
+      style="fill:lime;stroke:purple;stroke-width:2.5;fill-rule:nonzero;">
+      <animateTransform attributeType="xml"
+                    attributeName="transform"
+                    type="rotate"
+                    from="0 50 50"
+                    to="360 50 50"
+                    dur="4s"
+                    repeatCount="indefinite"/>
+    </polygon>
 
     <defs>
       <filter id="f1" x="0" y="0">
